@@ -173,6 +173,8 @@ nnoremap <leader>ar :right<CR>
 nnoremap <leader>ac :center<CR>
 noremap <silent>+ :tabnext<CR>
 noremap <silent>_ :tabprevious<CR>
+nnoremap <silent><Tab> :bnext<CR>
+nnoremap <silent><S-Tab> :bprevious<CR>
 nnoremap <c-h> <c-w>h
 nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
