@@ -195,7 +195,10 @@ nnoremap <silent><leader>chp :setlocal cursorline! cursorcolumn!<CR>
 nnoremap <silent><leader>psm :setlocal paste!<CR>
 nnoremap <silent><leader>spc :setlocal spell!<CR>
 nnoremap <silent><leader>num :setlocal number!<CR>
+" clang format
 
+map <C-K> :pyf /usr/local/opt/llvm/share/clang/clang-format.py<cr>
+imap <C-K> <c-o>:pyf /usr/local/opt/llvm/share/clang/clang-format.py<cr>
 " Aireline
 let g:airline#extensions#tabline#enabled=1
 let g:airline_powerline_fonts=1
